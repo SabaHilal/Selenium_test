@@ -1,0 +1,39 @@
+a {
+    color: #000000;
+}
+a, a:visited {
+    text-decoration: none;
+}
+
+
+a.read-more {
+    display: inline-block;
+    background-color: #ff0008;
+    color: #fff;
+    height: 25px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    transition: background .17s ease;
+}
+a.read-more::after {
+    content: '\f178';
+    font-family: FontAwesome;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+}
+
+.post-snippet {
+    overflow: hidden;
+    font-size: 12px;
+    
+    }
+
+.index-post .post-snippet {
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    text-align: justify;
+}    
